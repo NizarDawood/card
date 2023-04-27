@@ -7,6 +7,15 @@ public class card {
 
 
     public static void main(String[] args) {
-        String playAgainst();
+        while (true) {
+
+            if (tjuv.getHälsa() <= 0) {
+                System.out.println("Polisen vinner");
+                break;
+            } else if (polis.getHälsa() <= 0) {
+                System.out.println("Tjuven vinner");
+                break;
+            }
+        }
     }
 }
